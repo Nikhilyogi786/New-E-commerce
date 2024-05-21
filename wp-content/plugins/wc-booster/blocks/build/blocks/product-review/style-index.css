@@ -1,0 +1,174 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/product-review/styles/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-product-review-wrapper {
+  position: relative;
+}
+.wc-booster-product-review-wrapper .wc-booster-product-review-card-wrapper > div {
+  overflow: hidden;
+}
+.wc-booster-product-review-wrapper .wc-booster-product-review-card-wrapper .wc-booster-product-review-body-inner {
+  padding: 15px 0 0;
+}
+.wc-booster-product-review-wrapper .slick-slide:focus {
+  outline: none;
+}
+.wc-booster-product-review-wrapper .wc-booster-slider-arrow {
+  position: absolute;
+  right: 15px;
+  top: -30px;
+  z-index: 9;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 6px;
+}
+.wc-booster-product-review-wrapper .wc-booster-slider-arrow.wc-booster-prev-arrow {
+  right: 65px;
+}
+.wc-booster-product-review-wrapper .wc-booster-arrow-wide .wc-booster-slider-arrow {
+  right: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.wc-booster-product-review-wrapper .wc-booster-arrow-wide .wc-booster-slider-arrow.wc-booster-prev-arrow {
+  left: 8px;
+  right: auto;
+}
+.wc-booster-product-review-wrapper ul.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.wc-booster-product-review-wrapper ul.slick-dots li button {
+  border: 1px solid transparent;
+  height: 9px;
+  width: 45px;
+  margin: 0 4px;
+  border-radius: 9px;
+  background: #e7e7e7;
+  cursor: pointer;
+}
+.wc-booster-product-review-wrapper ul.slick-dots li button:focus {
+  outline: none;
+}
+.wc-booster-product-review-wrapper ul.slick-dots li.slick-active button {
+  background: #000;
+}
+.wc-booster-product-review-wrapper .slick-track {
+  margin-left: inherit;
+}
+
+.wc-booster-align-center {
+  text-align: center;
+}
+.wc-booster-align-center a img {
+  margin: auto;
+}
+
+.wc-booster-align-left {
+  text-align: left;
+}
+.wc-booster-align-left .wc-booster-product-review-rating .star-rating {
+  margin: 0;
+}
+
+.wc-booster-align-right {
+  text-align: right;
+}
+.wc-booster-align-right a img {
+  margin-left: auto;
+}
+.wc-booster-align-right .wc-booster-product-review-rating .star-rating {
+  margin: 0 0 0 auto;
+}
+
+.wc-booster-product-review-rating {
+  display: block;
+}
+.wc-booster-product-review-rating .star-rating {
+  float: none !important;
+  margin: auto;
+}
+
+.wc-booster-product-review-wrapper ul.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+.wc-booster-product-review-wrapper ul.slick-dots li button {
+  font-size: 0;
+  color: transparent;
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50% !important;
+  margin: 0 3px;
+  background: #eee;
+}
+.wc-booster-product-review-wrapper ul.slick-dots li.slick-active button {
+  background: #000;
+}
+
+.wc-booster-align-center .wc-booster-product-review-body-inner,
+.wc-booster-align-center .wc-booster-product-review-product-img img,
+.wc-booster-align-center .wc-booster-product-review-avatar img {
+  margin: auto;
+}
+
+.wc-booster-align-left .wc-booster-product-review-body-inner,
+.wc-booster-align-left .wc-booster-product-review-product-img img,
+.wc-booster-align-left .wc-booster-product-review-avatar img {
+  margin-right: auto;
+}
+
+.wc-booster-align-right .wc-booster-product-review-body-inner,
+.wc-booster-align-right .wc-booster-product-review-product-img img,
+.wc-booster-align-right .wc-booster-product-review-avatar img {
+  margin-left: auto;
+}
+
+.wc-booster-product-review-date-author span {
+  margin-right: 10px;
+}
+
+.wc-booster-product-review-title a {
+  text-decoration: none;
+}
+
+.woocommerce .wc-booster-product-review-init .slick-dots button {
+  padding: unset;
+}
+
+.wc-booster-product-review-layout-two .wc-booster-product-review-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wc-booster-product-review-layout-two .wc-booster-product-review-inner-wrapper .wc-booster-product-review-product-img {
+  max-width: 38%;
+  flex: 0 0 38%;
+  overflow: hidden;
+}
+.wc-booster-product-review-layout-two .wc-booster-product-review-inner-wrapper .wc-booster-product-review-product-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wc-booster-product-review-layout-two .wc-booster-product-review-inner-wrapper .wc-booster-product-review-meta {
+  max-width: 58%;
+  flex: 0 0 58%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,4 @@
+.th-theme-notice > a:nth-of-type(2),
+.tablinks.get-child {
+    display: none!important;
+  }

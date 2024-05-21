@@ -1,0 +1,123 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/product-price",
+  "version": "1.3",
+  "title": "Product Price",
+  "description": "This block is tailored for products with multiple variations, offering flexible display and styling options for their prices",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "priceType": {
+      "type": "string",
+      "default": "min"
+    },
+    "minPrefixText": {
+      "type": "string",
+      "default": "From: "
+    },
+    "maxPrefixText": {
+      "type": "string",
+      "default": "Upto: "
+    },
+    "minMaxPrefixText": {
+      "type": "string",
+      "default": "Price Range: "
+    },
+    "color": {
+      "type": "string",
+      "default": "#000"
+    },
+    "enablePrefix": {
+      "type": "boolean",
+      "default": true
+    },
+    "disableDefaultVariationPrice": {
+      "type": "boolean",
+      "default": true
+    },
+    "enablePriceChange": {
+      "type": "boolean",
+      "default": true
+    },
+    "textTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 30,
+            "tablet": 30,
+            "mobile": 30
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./variation-price.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

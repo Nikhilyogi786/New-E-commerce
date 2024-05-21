@@ -1,0 +1,21 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/wish-list-item/styles/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-wrapper .wc-booster-wishlist-button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+.wc-booster-wrapper .wc-booster-wishlist-button i.fa {
+  color: #cbc2c2;
+  position: relative;
+  top: 5px;
+}
+.wc-booster-wrapper .wc-booster-wishlist-button i.fa.added {
+  color: #e53737;
+}
+
+/*# sourceMappingURL=index.css.map*/

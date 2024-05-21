@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/product-price/style-index.css","mappings":";;;AAEA;EACC;AADD,C","sources":["webpack://wc-booster/./src/blocks/product-price/styles/style.scss"],"sourcesContent":["$prefix: '.wc-booster';\r\n\r\n.single-product .single_variation_wrap div.woocommerce-variation-price {\r\n\tdisplay: none;\r\n}"],"names":[],"sourceRoot":""}

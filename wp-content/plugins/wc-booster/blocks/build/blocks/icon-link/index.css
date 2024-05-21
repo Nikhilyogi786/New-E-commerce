@@ -1,0 +1,30 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/icon-link/styles/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-wc-booster-usp {
+  padding: 15px;
+}
+
+ul.wc-booster-usps {
+  padding: 0 0 0 10px;
+  margin: 0;
+  list-style: none;
+}
+ul.wc-booster-usps li {
+  display: flex;
+  line-height: 1;
+  margin-bottom: 12px;
+  align-items: center;
+}
+ul.wc-booster-usps li i {
+  margin-right: 12px;
+}
+
+.wp-block-wc-booster-usp p {
+  margin: 0 0 15px;
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=index.css.map*/

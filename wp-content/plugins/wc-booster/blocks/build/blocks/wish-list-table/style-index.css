@@ -1,0 +1,131 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/wish-list-table/styles/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-wrapper .wc-booster-wishlist-button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+.wc-booster-wrapper .wc-booster-wishlist-button i.fa {
+  color: #cbc2c2;
+}
+.wc-booster-wrapper .wc-booster-wishlist-button i.fa.added {
+  color: #e53737;
+}
+
+.wc-booster-wishlist-page {
+  margin: 50px auto;
+  padding: 15px;
+}
+.wc-booster-wishlist-page .wc-booster-wishlist-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.wc-booster-wishlist-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.wc-booster-wishlist-page table tr {
+  border-top: 1px solid #b9b9b9;
+}
+.wc-booster-wishlist-page table tbody tr {
+  border-bottom: 1px solid #b9b9b9;
+}
+.wc-booster-wishlist-page table th {
+  border-right: 1px solid #b9b9b9;
+}
+.wc-booster-wishlist-page table th:last-child {
+  border-right: none;
+}
+.wc-booster-wishlist-page table td, .wc-booster-wishlist-page table th {
+  padding: 15px;
+  text-align: center;
+}
+.wc-booster-wishlist-page table .quantity {
+  width: 70px;
+  margin: auto;
+}
+.wc-booster-wishlist-page table .quantity input {
+  background-color: #f7f7f7;
+  width: 70px;
+  padding: 10px;
+}
+.wc-booster-wishlist-page table .quantity button {
+  display: none;
+}
+.wc-booster-wishlist-page table button.product-remove-btn {
+  background: #f7f7f7;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 7px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.wc-booster-wishlist-page table button.product-remove-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.wc-booster-wishlist-page table td.product-title-img a {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+.wc-booster-wishlist-page table td.product-title-img a img {
+  padding: 10px;
+}
+.wc-booster-wishlist-page table td.add-to-cart-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.wc-booster-empty-wishlist {
+  text-align: center;
+  font-size: 21px;
+}
+
+.wc-booster-wishlist-grid .wc-booster-product-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 6px;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block:nth-child(odd) {
+  background-color: #eee;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block .product-img {
+  height: 50px;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block .product-img img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block .product-contents {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block .product-contents a {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: #000;
+}
+.wc-booster-wishlist-grid .wc-booster-product-block .product-contents .product-price {
+  color: #4e4e4e;
+  font-weight: 500;
+  display: block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

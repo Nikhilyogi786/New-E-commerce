@@ -1,0 +1,566 @@
+# Copyright (C) 2024 Eagle Vision IT
+# This file is distributed under the same license as the WC Booster - Minimalist product addon for WooCommmerce plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Booster - Minimalist product addon for WooCommmerce "
+"plugin 1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-booster\n"
+"POT-Creation-Date: 2024-05-10 09:23:53+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:1,2;_x:1,"
+"2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: blocks/class/wish-list-table.php:132 blocks/class/wish-list-table.php:148
+msgid "The Wishlist is empty."
+msgstr ""
+
+#: blocks/class/wish-list-table.php:170
+msgid "SN"
+msgstr ""
+
+#: blocks/class/wish-list-table.php:171 inc/admin-fields.php:72
+#: woocommerce/cart/cart.php:28 woocommerce/cart/cart.php:47
+msgid "Product"
+msgstr ""
+
+#: blocks/class/wish-list-table.php:172 woocommerce/cart/cart.php:30
+msgid "Price"
+msgstr ""
+
+#: blocks/class/wish-list-table.php:173 woocommerce/cart/cart.php:29
+#: woocommerce/cart/cart.php:67
+msgid "Quantity"
+msgstr ""
+
+#: blocks/init.php:35 inc/plugin-page.php:51
+msgid "WC Booster"
+msgstr ""
+
+#: blocks/init.php:40
+msgid "WC Booster Single Product"
+msgstr ""
+
+#: class/slide/slide-out.php:40
+msgid "Close"
+msgstr ""
+
+#: custom-fields/class/ajax.php:25
+#: custom-fields/fields/dropdown-navigation.php:28
+msgid "Select"
+msgstr ""
+
+#: custom-fields/class/post-type.php:69 custom-fields/class/post-type.php:70
+#: custom-fields/class/post-type.php:130
+msgid "Add New "
+msgstr ""
+
+#: custom-fields/class/post-type.php:71 custom-fields/class/post-type.php:131
+msgid "Edit "
+msgstr ""
+
+#: custom-fields/class/post-type.php:72 custom-fields/class/post-type.php:137
+msgid "New "
+msgstr ""
+
+#: custom-fields/class/post-type.php:73 custom-fields/class/post-type.php:133
+msgid "All "
+msgstr ""
+
+#: custom-fields/class/post-type.php:74
+msgid "View "
+msgstr ""
+
+#: custom-fields/class/post-type.php:75 custom-fields/class/post-type.php:132
+msgid "Search "
+msgstr ""
+
+#: custom-fields/class/post-type.php:76 custom-fields/class/post-type.php:77
+msgid "No "
+msgstr ""
+
+#: custom-fields/class/post-type.php:76
+msgid " found"
+msgstr ""
+
+#: custom-fields/class/post-type.php:77
+msgid " found in Trash"
+msgstr ""
+
+#: custom-fields/class/post-type.php:134 custom-fields/class/post-type.php:135
+msgid "Parent "
+msgstr ""
+
+#: custom-fields/class/post-type.php:136
+msgid "Update "
+msgstr ""
+
+#: custom-fields/class/script.php:92
+msgid "Caption."
+msgstr ""
+
+#: custom-fields/class/script.php:93
+msgid "Link."
+msgstr ""
+
+#: custom-fields/class/script.php:94
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: custom-fields/class/script.php:95
+msgid "Please Select atleast an item?"
+msgstr ""
+
+#: custom-fields/class/script.php:96
+msgid "Choose an Image."
+msgstr ""
+
+#: custom-fields/class/script.php:97
+msgid "Insert"
+msgstr ""
+
+#: custom-fields/class/script.php:98 custom-fields/fields/image.php:2
+msgid "Change Image"
+msgstr ""
+
+#: custom-fields/class/script.php:99 custom-fields/fields/image.php:5
+msgid "Select Image"
+msgstr ""
+
+#: custom-fields/fields/icon-selector.php:8
+msgid "Browse Icon"
+msgstr ""
+
+#: custom-fields/fields/image.php:31
+msgid "Delete Image"
+msgstr ""
+
+#: custom-fields/fields/repeater.php:22 custom-fields/fields/repeater.php:51
+msgid "Delete"
+msgstr ""
+
+#: custom-fields/fields/repeater.php:61
+msgid "Add"
+msgstr ""
+
+#: custom-fields/templates/icon-selector-modal.php:6
+msgid "Search for an icon"
+msgstr ""
+
+#: inc/admin-fields.php:24
+msgid "Search ( Deprecated. Use search block instead. )"
+msgstr ""
+
+#: inc/admin-fields.php:28 inc/admin-fields.php:55 inc/admin-fields.php:94
+#: inc/admin-fields.php:109 inc/admin-fields.php:132 inc/admin-fields.php:146
+#: inc/admin-fields.php:226
+msgid "Enable"
+msgstr ""
+
+#: inc/admin-fields.php:30
+msgid ""
+"Enable this option to provide instant search results along with relevant "
+"suggestion."
+msgstr ""
+
+#: inc/admin-fields.php:33 inc/admin-fields.php:151
+msgid "Assign to ( Menu )"
+msgstr ""
+
+#: inc/admin-fields.php:35
+msgid "Select the menu where you prefer to display the search bar."
+msgstr ""
+
+#: inc/admin-fields.php:38
+msgid "Placeholder"
+msgstr ""
+
+#: inc/admin-fields.php:41
+msgid "Insert the placeholder text for the search box."
+msgstr ""
+
+#: inc/admin-fields.php:44 inc/admin-fields.php:168 inc/admin-fields.php:183
+#: inc/product.php:107
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin-fields.php:47
+msgid ""
+"Paste this shortcode to the desired location to display the search box.\r\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: inc/admin-fields.php:51
+msgid "Custom Quantity Input"
+msgstr ""
+
+#: inc/admin-fields.php:57
+msgid ""
+"Enable this option to allow customers to modify the order quantity through "
+"various carts - Mini Cart, Shopping Cart, and during the checkout as well."
+msgstr ""
+
+#: inc/admin-fields.php:60 inc/admin-fields.php:115 inc/admin-fields.php:189
+#: inc/product.php:131
+msgid "Layout"
+msgstr ""
+
+#: inc/admin-fields.php:63 inc/admin-fields.php:118 inc/product.php:134
+msgid "Default"
+msgstr ""
+
+#: inc/admin-fields.php:64
+msgid "Vertical"
+msgstr ""
+
+#: inc/admin-fields.php:67
+msgid "Choose layout for the Custom Quantity Input."
+msgstr ""
+
+#: inc/admin-fields.php:75 inc/admin-fields.php:209 inc/mini-cart.php:123
+msgid "Cart"
+msgstr ""
+
+#: inc/admin-fields.php:79
+msgid "Sticky"
+msgstr ""
+
+#: inc/admin-fields.php:81
+msgid "Enable this option to display the cart in the bottom of the product page."
+msgstr ""
+
+#: inc/admin-fields.php:84 inc/admin-fields.php:99 inc/admin-fields.php:205
+msgid "Label"
+msgstr ""
+
+#: inc/admin-fields.php:87
+msgid "Insert the Cart Button Label ( button text )."
+msgstr ""
+
+#: inc/admin-fields.php:90
+msgid "Quick View"
+msgstr ""
+
+#: inc/admin-fields.php:96
+msgid ""
+"Enable this option to have a quick view button displayed at the top of each "
+"individual product listing."
+msgstr ""
+
+#: inc/admin-fields.php:102
+msgid "Insert the label for the button that enables product Quick View."
+msgstr ""
+
+#: inc/admin-fields.php:105
+msgid "Bulk Variation"
+msgstr ""
+
+#: inc/admin-fields.php:112
+msgid ""
+"Enable this option to allow customers to order multiple quantities of the "
+"same product with variations."
+msgstr ""
+
+#: inc/admin-fields.php:120
+msgid "Choose the layout of the variation section displayed in product page."
+msgstr ""
+
+#: inc/admin-fields.php:123
+msgid "Hide out of stock"
+msgstr ""
+
+#: inc/admin-fields.php:125
+msgid "Enable this section to hide the products that are out of stock."
+msgstr ""
+
+#: inc/admin-fields.php:128
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Specification"
+msgstr ""
+
+#: inc/admin-fields.php:134
+msgid "Enable product specification on the each product on the product page."
+msgstr ""
+
+#: inc/admin-fields.php:139
+msgid "Mini Cart ( Deprecated )"
+msgstr ""
+
+#: inc/admin-fields.php:142
+msgid "Mini Cart"
+msgstr ""
+
+#: inc/admin-fields.php:148
+msgid "Enable this option to get mini cart feature for your website."
+msgstr ""
+
+#: inc/admin-fields.php:153
+msgid "Select the menu where you prefer to display the Mini Cart icon."
+msgstr ""
+
+#: inc/admin-fields.php:156
+msgid "Update button"
+msgstr ""
+
+#: inc/admin-fields.php:159
+msgid "Enable this option to get Update Button in the Mini Cart."
+msgstr ""
+
+#: inc/admin-fields.php:162 inc/product.php:116
+msgid "Title"
+msgstr ""
+
+#: inc/admin-fields.php:165
+msgid "Insert title for the Mini Cart."
+msgstr ""
+
+#: inc/admin-fields.php:171
+msgid "Paste this shortcode to the desired location to display the Mini Cart icon."
+msgstr ""
+
+#: inc/admin-fields.php:176 woocommerce/cart/mini-cart.php:121
+msgid "Checkout"
+msgstr ""
+
+#: inc/admin-fields.php:179 inc/admin-fields.php:244 inc/product.php:151
+msgid "General"
+msgstr ""
+
+#: inc/admin-fields.php:186
+msgid "Paste this shortcode in the checkout page."
+msgstr ""
+
+#: inc/admin-fields.php:195
+msgid "Choose layout of the checkout."
+msgstr ""
+
+#: inc/admin-fields.php:199
+msgid "Direct Checkout"
+msgstr ""
+
+#: inc/admin-fields.php:201
+msgid "Enable this option to redirect to checkout page after adding to the cart."
+msgstr ""
+
+#: inc/admin-fields.php:212
+msgid "Insert the title of the cart."
+msgstr ""
+
+#: inc/admin-fields.php:215
+msgid "Payment Method"
+msgstr ""
+
+#: inc/admin-fields.php:218
+msgid "Insert the title of the payment method section."
+msgstr ""
+
+#: inc/admin-fields.php:222
+msgid "Upsells"
+msgstr ""
+
+#: inc/admin-fields.php:229
+msgid ""
+"Enable this option to provide product recommendation aligned with "
+"interested products."
+msgstr ""
+
+#: inc/admin-fields.php:232
+msgid "Heading"
+msgstr ""
+
+#: inc/admin-fields.php:234
+msgid "You may also like this"
+msgstr ""
+
+#: inc/admin-fields.php:236
+msgid "Insert heading for the upsells section."
+msgstr ""
+
+#: inc/admin-fields.php:241 woocommerce/wishlist/wishlist.php:23
+msgid "Wishlist"
+msgstr ""
+
+#: inc/admin-fields.php:248
+msgid "Assign wishlist page"
+msgstr ""
+
+#: inc/admin-fields.php:250
+msgid "Assign a page to display the list of wishlist."
+msgstr ""
+
+#: inc/category.php:37
+msgid "Icon"
+msgstr ""
+
+#: inc/category.php:39
+msgid "For WC Booster Block."
+msgstr ""
+
+#: inc/checkout.php:94
+msgid "required"
+msgstr ""
+
+#: inc/checkout.php:102
+msgid "Place your order"
+msgstr ""
+
+#: inc/checkout.php:110
+msgid "Thank you"
+msgstr ""
+
+#: inc/plugin-page.php:31 inc/plugin-page.php:61 inc/plugin-page.php:62
+msgid "Settings"
+msgstr ""
+
+#: inc/plugin-page.php:40
+msgid "Go Pro"
+msgstr ""
+
+#: inc/plugin-page.php:50
+msgid "WooCommerce Booster"
+msgstr ""
+
+#: inc/product.php:104 inc/product.php:112
+msgid "Pop Up"
+msgstr ""
+
+#: inc/product.php:120
+msgid "Content"
+msgstr ""
+
+#: inc/product.php:128
+msgid "USP"
+msgstr ""
+
+#: inc/product.php:139
+msgid "Usps"
+msgstr ""
+
+#: inc/product.php:143
+msgid "Unique selling point"
+msgstr ""
+
+#: inc/product.php:154
+msgid "Choose Banner Image"
+msgstr ""
+
+#: inc/product.php:161
+msgid "WC Booster Options"
+msgstr ""
+
+#: inc/quick-view.php:95
+msgid "Invalid post ID"
+msgstr ""
+
+#: inc/quick-view.php:132
+msgid "Invalid HTML data"
+msgstr ""
+
+#: inc/quick-view.php:147 inc/wishlist.php:77 inc/wishlist.php:98
+msgid "Invalid data"
+msgstr ""
+
+#: wc-booster.php:84
+msgid ""
+"Unlock enhanced features with WC Booster by installing WooCommerce. This "
+"dynamic addon takes your e-commerce experience to the next level. Get "
+"started today!"
+msgstr ""
+
+#: wc-booster.php:89
+msgid "Install & Activate"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28 woocommerce/cart/cart-totals.php:29
+#: woocommerce/cart/cart.php:93
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:50 woocommerce/cart/cart-totals.php:51
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70
+#. translators: %s location.
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:96 woocommerce/cart/cart-totals.php:97
+#: woocommerce/cart/cart.php:151
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:62
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:105 woocommerce/cart/mini-cart.php:79
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127 woocommerce/cart/cart.php:130
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:100
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:102
+msgid "Shop Now"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:115
+msgid "Sub Total:"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Use coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:33
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:39
+msgid "Apply coupon"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WC Booster - Minimalist product addon for WooCommmerce plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.eaglevisionit.com/downloads/wc-booster/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advance your business by giving customers a distinctive shopping experience "
+"with WC Booster."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eagle Vision IT"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.eaglevisionit.com/"
+msgstr ""

@@ -1,0 +1,214 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/category-collage",
+  "version": "1.3",
+  "title": "Category Collage",
+  "description": "The Category Collage block enables users to highlight their store's product categories in a visually engaging colalge with different layouts.",
+  "category": "wc-booster",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "cat_id": {
+      "type": "string"
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "descriptionTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "enableDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "imageHeight": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 50,
+          "max": 500
+        },
+        "values": {
+          "desktop": 250,
+          "tablet": 250,
+          "mobile": 250
+        }
+      }
+    },
+    "imageRadius": {
+      "type": "number",
+      "default": 6
+    },
+    "catTextColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "tablet": [
+            30,
+            30,
+            30,
+            30
+          ],
+          "mobile": [
+            30,
+            30,
+            30,
+            30
+          ]
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "one"
+    },
+    "contentWidth": {
+      "type": "object",
+      "default": {
+        "activeUnit": "%",
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "%"
+        ],
+        "range": {
+          "min": 1,
+          "max": 100
+        },
+        "values": {
+          "desktop": 100,
+          "tablet": 100,
+          "mobile": 100
+        }
+      }
+    },
+    "collageBoxLayout": {
+      "type": "object",
+      "default": {
+        "active": "one",
+        "layouts": [
+          {
+            "name": "one",
+            "icon": "one"
+          },
+          {
+            "name": "two",
+            "icon": "two"
+          }
+        ]
+      }
+    },
+    "overlay": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "opacity": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

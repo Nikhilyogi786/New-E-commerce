@@ -1,0 +1,289 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/linked-product/styles/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-linked-product-wrapper {
+  position: relative;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper > div {
+  overflow: hidden;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.6s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  overflow: hidden;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-card-image:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-body-inner {
+  padding: 15px 0 0;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-title {
+  margin: 3px 0;
+  font-size: 18px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-title a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 20px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-price {
+  margin: 10px 0;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-cat {
+  margin-top: 3px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-cat a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+  opacity: 0.95;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 12px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-cat a .line {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 108%;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-cat a:nth-child(n+1) {
+  margin-left: 40px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-cat a:first-child {
+  margin-left: 0;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-meta-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-meta-wrapper div {
+  padding: 0 10px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-meta-wrapper div a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  opacity: 0.95;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 12px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-meta-wrapper i {
+  margin-right: 10px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-linked-product-card-wrapper .wc-booster-linked-product-post-content p {
+  margin: 0;
+  color: #fff;
+}
+.wc-booster-linked-product-wrapper .slick-slide:focus {
+  outline: none;
+}
+.wc-booster-linked-product-wrapper .wc-booster-slider-arrow {
+  position: absolute;
+  right: 15px;
+  top: -30px;
+  z-index: 9;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 6px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-slider-arrow.wc-booster-prev-arrow {
+  right: 65px;
+}
+.wc-booster-linked-product-wrapper .wc-booster-arrow-wide .wc-booster-slider-arrow {
+  right: 8px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.wc-booster-linked-product-wrapper .wc-booster-arrow-wide .wc-booster-slider-arrow.wc-booster-prev-arrow {
+  left: 8px;
+  right: auto;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots li button {
+  border: 1px solid transparent;
+  height: 9px;
+  width: 45px;
+  margin: 0 4px;
+  border-radius: 9px;
+  background: #e7e7e7;
+  cursor: pointer;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots li button:focus {
+  outline: none;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots li.slick-active button {
+  background: #000;
+}
+.wc-booster-linked-product-wrapper .slick-track {
+  margin-left: inherit;
+}
+
+.wc-booster-linked-product-title {
+  padding: 0 140px 0 10px;
+  color: #fff;
+  margin: 0;
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.wc-booster-align-center {
+  text-align: center;
+}
+.wc-booster-align-center a img {
+  margin: auto;
+}
+
+.wc-booster-align-left {
+  text-align: left;
+}
+.wc-booster-align-left .wc-booster-linked-product-rating .star-rating {
+  margin: 0;
+}
+
+.wc-booster-align-right {
+  text-align: right;
+}
+.wc-booster-align-right a img {
+  margin-left: auto;
+}
+.wc-booster-align-right .wc-booster-linked-product-rating .star-rating {
+  margin: 0 0 0 auto;
+}
+
+.wc-booster-linked-product-rating {
+  display: block;
+}
+.wc-booster-linked-product-rating .star-rating {
+  float: none !important;
+  margin: auto;
+}
+
+/* layout two */
+.layout-two .wc-booster-linked-product-inner-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.layout-two .wc-booster-linked-product-inner-wrapper > div:first-child {
+  max-width: 30%;
+  flex: 0 0 30%;
+  order: 2;
+}
+.layout-two .wc-booster-linked-product-inner-wrapper .wc-booster-linked-product-card {
+  max-width: 70%;
+  flex: 0 0 70%;
+  order: 1;
+  padding-right: 30px;
+}
+@media (max-width: 620px) {
+  .layout-two .wc-booster-linked-product-inner-wrapper > div:first-child {
+    max-width: 100%;
+    flex: 0 0 100%;
+    order: 1;
+  }
+  .layout-two .wc-booster-linked-product-inner-wrapper .wc-booster-linked-product-card {
+    max-width: 100%;
+    flex: 0 0 100%;
+    order: 2;
+    padding-right: 0;
+  }
+}
+.layout-two .wc-booster-linked-product-inner-wrapper.wc-booster-linked-product-has-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.layout-two .wc-booster-linked-product-inner-wrapper.wc-booster-linked-product-has-banner .wc-booster-linked-product-card {
+  max-width: 100%;
+  flex: 0 0 100%;
+  order: 2;
+  padding-right: 0;
+}
+
+.wc-booster-linked-product-wrapper ul.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots li button {
+  font-size: 0;
+  color: transparent;
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50% !important;
+  margin: 0 3px;
+  background: #eee;
+}
+.wc-booster-linked-product-wrapper ul.slick-dots li.slick-active button {
+  background: #000;
+}
+
+.wc-booster-linked-product-btn {
+  text-decoration: none;
+}
+
+.wc-booster-align-center .wc-booster-linked-product-body-inner {
+  margin: auto;
+}
+
+.wc-booster-align-left .wc-booster-linked-product-body-inner {
+  margin-right: auto;
+}
+
+.wc-booster-align-right .wc-booster-linked-product-body-inner {
+  margin-left: auto;
+}
+
+.woocommerce .wc-booster-linked-product-init .slick-dots button {
+  padding: unset;
+}
+
+.wc-booster-linked-product-card-wrapper {
+  position: relative;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

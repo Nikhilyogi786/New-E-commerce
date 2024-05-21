@@ -1,0 +1,49 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/wish-list-button/styles/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.wc-booster-wishlist-button-wrapper {
+  display: flex;
+  gap: 10px;
+  z-index: 99;
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button i {
+  font-weight: 900;
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button.added i {
+  color: #e53737;
+  font-weight: 900;
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button.added i:before {
+  content: "\f004";
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button.loading {
+  padding-right: 0 !important;
+}
+.wc-booster-wishlist-button-wrapper .wc-booster-wishlist-button.loading:after {
+  border-top: 2px solid #000000;
+  width: 8px;
+  height: 8px;
+  right: 10px;
+  top: 8px;
+}
+
+.products-block-post-template li.product {
+  position: relative;
+}
+
+.wp-block-post-template li.type-product {
+  position: relative;
+}
+
+.single-product .wp-block-column {
+  position: relative;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

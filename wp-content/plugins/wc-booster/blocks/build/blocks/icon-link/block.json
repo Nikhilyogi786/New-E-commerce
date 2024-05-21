@@ -1,0 +1,135 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/icon-link",
+  "version": "1.3",
+  "title": "Icon Link",
+  "description": "The Icon Link block adds visually appealing links with custom icons to your WordPress site, enhancing navigation and highlighting key content",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "object",
+      "default": "fa-check"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "iconColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "title": {
+      "type": "string"
+    },
+    "page": {
+      "type": "number",
+      "default": ""
+    },
+    "useExternalLink": {
+      "type": "boolean",
+      "default": false
+    },
+    "externalLink": {
+      "type": "string"
+    },
+    "iconSize": {
+      "type": "number",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 15,
+          "tablet": 15,
+          "mobile": 15
+        }
+      }
+    },
+    "textTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          }
+        }
+      }
+    },
+    "titleMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            5
+          ]
+        }
+      }
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

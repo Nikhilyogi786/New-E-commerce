@@ -1,0 +1,621 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Product Categories Design\n"
+"POT-Creation-Date: 2022-11-27 09:55+0600\n"
+"PO-Revision-Date: 2022-11-27 09:56+0600\n"
+"Last-Translator: \n"
+"Language-Team: Dynamic web lab\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;_n;_x;esc_html__;esc_html_x;esc_html_e;esc_attr__;"
+"esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: include/Admin/Custom_Post_Type.php:29 include/Admin/Custom_Post_Type.php:30
+#: include/Admin/Custom_Post_Type.php:31 include/Admin/Custom_Post_Type.php:32
+msgid "WC Category Design"
+msgstr ""
+
+#: include/Admin/Custom_Post_Type.php:33
+msgid "Add New"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:30
+msgid "WC Category Design Settings"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:40
+msgid "Select Featured Categoories"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:41
+msgid "Select Woocommerce Featured Categoories!"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:50
+msgid "Select Layout"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:51
+msgid "Select your favorite Layout for woocommerce Featured Categoories!"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:56
+msgid "Grid Layout"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:57
+msgid "Slider Layout"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:72
+msgid "Yes"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:73
+msgid "No"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:84
+msgid "Product Categories Design settings"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:90
+msgid "Special offer text"
+msgstr ""
+
+#: include/Metaboxes/Cat_Showcase_Metabox.php:91
+msgid "Add special offer text for the category product"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:115
+msgid "Test Metabox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:148 lib/cmb2/example-functions.php:492
+msgid "Test Text"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:149 lib/cmb2/example-functions.php:162
+#: lib/cmb2/example-functions.php:175 lib/cmb2/example-functions.php:182
+#: lib/cmb2/example-functions.php:195 lib/cmb2/example-functions.php:203
+#: lib/cmb2/example-functions.php:212 lib/cmb2/example-functions.php:220
+#: lib/cmb2/example-functions.php:235 lib/cmb2/example-functions.php:243
+#: lib/cmb2/example-functions.php:251 lib/cmb2/example-functions.php:268
+#: lib/cmb2/example-functions.php:277 lib/cmb2/example-functions.php:293
+#: lib/cmb2/example-functions.php:300 lib/cmb2/example-functions.php:307
+#: lib/cmb2/example-functions.php:332 lib/cmb2/example-functions.php:345
+#: lib/cmb2/example-functions.php:358 lib/cmb2/example-functions.php:370
+#: lib/cmb2/example-functions.php:384 lib/cmb2/example-functions.php:392
+#: lib/cmb2/example-functions.php:401 lib/cmb2/example-functions.php:408
+#: lib/cmb2/example-functions.php:422 lib/cmb2/example-functions.php:493
+#: lib/cmb2/example-functions.php:583 lib/cmb2/example-functions.php:591
+#: lib/cmb2/example-functions.php:598 lib/cmb2/example-functions.php:605
+#: lib/cmb2/example-functions.php:612 lib/cmb2/example-functions.php:619
+#: lib/cmb2/example-functions.php:626 lib/cmb2/example-functions.php:652
+#: lib/cmb2/example-functions.php:660 lib/cmb2/example-functions.php:667
+#: lib/cmb2/example-functions.php:717
+msgid "field description (optional)"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:161
+msgid "Test Text Small"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:174
+msgid "Test Text Medium"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:181
+msgid "Read-only Disabled Field"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:185
+msgid "Hey there, I'm a read-only field"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:194
+msgid "Custom Rendered Field"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:202
+msgid "Website URL"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:211
+msgid "Test Text Email"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:219
+msgid "Test Time"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:227 lib/cmb2/example-functions.php:228
+msgid "Time zone"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:234
+msgid "Test Date Picker"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:242
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:250
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:267
+msgid "Test Money"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:276
+msgid "Test Color Picker"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:292
+msgid "Test Text Area"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:299
+msgid "Test Text Area Small"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:306
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:324
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:325
+msgid "This is a title description"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:331
+msgid "Test Select"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:337 lib/cmb2/example-functions.php:350
+#: lib/cmb2/example-functions.php:362
+msgid "Option One"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:338 lib/cmb2/example-functions.php:351
+#: lib/cmb2/example-functions.php:363
+msgid "Option Two"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:339 lib/cmb2/example-functions.php:352
+#: lib/cmb2/example-functions.php:364
+msgid "Option Three"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:344
+msgid "Test Radio inline"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:357
+msgid "Test Radio"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:369
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:383
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:391
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:400
+msgid "Test Checkbox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:407
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:413
+msgid "Check One"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:414
+msgid "Check Two"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:415
+msgid "Check Three"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:421
+msgid "Test wysiwyg"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:431
+msgid "Test Image"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:432
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: lib/cmb2/example-functions.php:438
+msgid "Multiple Files"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:439
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: lib/cmb2/example-functions.php:446
+msgid "oEmbed"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:449
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+
+#: lib/cmb2/example-functions.php:481
+msgid "About Page Metabox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:511
+msgid "Repeating Field Group"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:519
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:521
+msgid "Entry {#}"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:522
+msgid "Add Another Entry"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:523
+msgid "Remove Entry"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:537
+msgid "Entry Title"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:544
+msgid "Description"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:545
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:551
+msgid "Entry Image"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:557
+msgid "Image Caption"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:575
+msgid "User Profile Metabox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:582 lib/cmb2/example-functions.php:651
+msgid "Extra Info"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:590
+msgid "Avatar"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:597
+msgid "Facebook URL"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:604
+msgid "Twitter URL"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:611
+msgid "Google+ URL"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:618
+msgid "Linkedin URL"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:625
+msgid "User Field"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:644
+msgid "Category Metabox"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:659
+msgid "Term Image"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:666
+msgid "Arbitrary Term Field"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:685
+msgid "Theme Options"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:716
+msgid "Site Background Color"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:753
+#, php-format
+msgid "%s &mdash; Updated!"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:785
+msgid "REST Test Box"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:794
+msgid "REST Test Text"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:795
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: lib/cmb2/example-functions.php:801
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: lib/cmb2/example-functions.php:802
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2.php:618
+msgid "Click to toggle"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Ajax.php:189
+#: lib/cmb2/includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Base.php:492
+#: lib/cmb2/includes/CMB2_Hookup_Base.php:102
+#: lib/cmb2/includes/CMB2_Options.php:247
+#: lib/cmb2/includes/CMB2_Options_Hookup.php:369
+#: lib/cmb2/includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Base.php:510
+#: lib/cmb2/includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Field.php:1443
+msgid "Add Group"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Field.php:1444
+msgid "Remove Group"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Field.php:1476 lib/cmb2/includes/CMB2_Field.php:1480
+msgid "None"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Field.php:1594
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Hookup.php:188
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Hookup.php:192
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:177 lib/cmb2/includes/CMB2_JS.php:222
+msgid "Clear"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:178
+msgid "Default"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:179
+msgid "Select Color"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:180
+msgid "Current Color"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:212
+msgid "mm/dd/yy"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:213
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:214
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:215
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:216
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:217
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:218
+msgid "Next"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:219
+msgid "Prev"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:220
+msgid "Today"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:221 lib/cmb2/includes/CMB2_JS.php:231
+msgid "Done"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:225
+msgid "Choose Time"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:226
+msgid "Time"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:227
+msgid "Hour"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:228
+msgid "Minute"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:229
+msgid "Second"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:230
+msgid "Now"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:232
+msgid "hh:mm TT"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:238
+msgid "Use this file"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:239
+msgid "Use these files"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:240
+#: lib/cmb2/includes/types/CMB2_Type_File_Base.php:75
+msgid "Remove Image"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:241 lib/cmb2/includes/CMB2_Types.php:408
+#: lib/cmb2/includes/types/CMB2_Type_File_Base.php:95
+msgid "Remove"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:242
+#: lib/cmb2/includes/types/CMB2_Type_File_Base.php:90
+msgid "File:"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:243
+#: lib/cmb2/includes/types/CMB2_Type_File_Base.php:93
+msgid "Download"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_JS.php:244
+msgid "Select / Deselect All"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr ""
+
+#: lib/cmb2/includes/CMB2_Types.php:408
+msgid "Remove Row"
+msgstr ""
+
+#: lib/cmb2/includes/helper-functions.php:308
+msgid "Save"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: lib/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr ""

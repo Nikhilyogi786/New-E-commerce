@@ -1,0 +1,245 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/call-to-action",
+  "version": "1.7",
+  "title": "Call To Action",
+  "description": "The CTA Block helps you engage your audience, increase conversions, and improve your online presence. Customize it to achieve your goals easily",
+  "category": "wc-booster",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "object"
+    },
+    "bgPosition": {
+      "type": "string",
+      "default": "left top"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#f3f3f3"
+    },
+    "bgSize": {
+      "type": "string",
+      "default": "cover"
+    },
+    "bgRepeat": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgAttachment": {
+      "type": "boolean",
+      "default": false
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            100,
+            30,
+            100,
+            30
+          ],
+          "tablet": [
+            70,
+            30,
+            70,
+            30
+          ],
+          "mobile": [
+            50,
+            20,
+            50,
+            20
+          ]
+        }
+      }
+    },
+    "subDescriptionMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            15,
+            30,
+            15,
+            0
+          ],
+          "tablet": [
+            15,
+            30,
+            15,
+            0
+          ],
+          "mobile": [
+            15,
+            30,
+            15,
+            0
+          ]
+        }
+      }
+    },
+    "heading": {
+      "type": "string",
+      "default": "Etiam sollicitudin ipsum eu......"
+    },
+    "subDescription": {
+      "type": "string",
+      "default": "Etiam sollicitudin ipsum eu......"
+    },
+    "subDescriptionColor": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "headingColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "overlay": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "opacity": {
+      "type": "number",
+      "default": 5
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "contentWidth": {
+      "type": "object",
+      "default": {
+        "activeUnit": "%",
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "%"
+        ],
+        "range": {
+          "min": 1,
+          "max": 100
+        },
+        "values": {
+          "desktop": 100,
+          "tablet": 100,
+          "mobile": 100
+        }
+      }
+    },
+    "headingTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 42,
+            "tablet": 32,
+            "mobile": 26
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+          }
+        }
+      }
+    },
+    "subDescriptionTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.6,
+            "tablet": 1.6,
+            "mobile": 1.6
+          }
+        }
+      }
+    },
+    "contentAlignment": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

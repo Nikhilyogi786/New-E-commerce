@@ -1,0 +1,249 @@
+/*
+ Theme Name: Top X
+ Theme URI: https://themehunk.com/product/top-store/
+ Author: ThemeHunk
+ Author URI: https://www.themehunk.com
+ Template: top-store
+ Description: Top X is a powerful responsive eCommerce WordPress theme specially designed for eStore websites. Theme is deeply integrated with WooCommerce plugin to sell your products online. Best suited for websites like electronic, food, home appliances site, gadget store, jewelry shop, fashion shop, furniture, grocery, clothing, and decorative stores. Theme contains multiple widgets options, Header and footer layout combinations, Color and Background option. It also has Sidebar option for both the FrontPage and inner pages to show Widgets. Some highlighted features are Advance product search, Top slider layout, Product carousel, Product carousel with tabbed category filter, Woo Category slider, Product list layout, Top header with three layouts, Ribbon section, Brand Section, Call to Action section. It is supported by widgets like Highlight Widget, Testimonial Widget and Blog post widget slider. Theme has some special features like Quick View, Compare Products, Wishlist, Dropdown cart, AJAX Search, Pre loader, and Social icons. Top X is Integrated with Lead Form Builder and WP Popup Builder Plugin. You can Import the whole demo in just one click. It has a neat and clean Customize panel which makes your website designing easier. Check Out Demo – https://themehunk.com/product/top-store/
+ Version: 1.0.3
+ Requires at least: 5
+ Tested up to: 6.4.3
+ Requires PHP: 5.6
+ License: GNU General Public License v3 or later
+ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+ Text Domain: top-x
+ Tags: e-commerce, blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-image-header, featured-images, custom-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+ This theme, like WordPress, is licensed under the GPL.
+ Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+#custom-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#custom-header img {
+    max-width: 100%;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav ul li {
+    display: inline-block;
+} */
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+}
+.zoom img {
+    transition: transform 0.3s ease;
+}
+
+.zoom img:hover {
+    transform: scale(1.1);
+}
+.read-more {
+    display: inline; /* Ensure it's displayed inline */
+    color: blue; /* Adjust color as needed */
+    text-decoration: underline; /* Add underline effect */
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+.card {
+    transition: border-color 0.3s;
+    border: 1px solid #ddd;
+}
+
+.card:hover {
+    border-color: #007bff;
+}
+
+.card-img-top {
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+.banner-image {
+    max-height: 300px; /* Adjust the value to your desired maximum height */
+        overflow: hidden; /* Hide any overflow to prevent distortion */
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* ide any overflow to prevent distortion */
+}
+.zoom {
+    overflow: hidden;
+    position: relative;
+}
+
+.zoom img {
+    transition: transform 0.5s ease;
+}
+
+.zoom:hover img {
+    transform: scale(1.1);
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+
+/* Add medium button size */
+.btn-md {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+/* Add animation on hover */
+.animated-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s, background-color 0.4s, border-color 0.4s;
+}
+
+.animated-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+    z-index: -1;
+}
+
+.animated-button:hover::before {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.animated-button:hover {
+    color: #fff;
+}
+
+/* Ensure icons are correctly aligned with text */
+.animated-button i {
+    margin-right: 0.5rem;
+}
+.image-popup {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.animated-button:hover .image-popup {
+    display: block;
+}
+
+.animated-button:hover {
+    color: #fff;
+}
+.card {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid black !important;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: transform 0.5s;
+}
+
+.zoom:hover img {
+    transform: scale(1.1);
+}
+
+.image-popup {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.animated-button:hover .image-popup {
+    display: block;
+}
+
+.animated-button:hover {
+    color: #fff;
+}
+/* Add attractive colors to buttons */
+.animated-button.view-button {
+    background-color: #ff6f61 !important;
+    border-color: #ff6f61 !important;
+    color: #fff !important;
+}
+
+.animated-button.view-button:hover {
+    background-color: #ff5246 !important;
+    border-color: #ff5246 !important;
+    color: #fff !;
+}
+
+.animated-button.cart-button {
+    background-color: #00bcd4 !important;
+    border-color: #00bcd4 !important;
+    color: #fff;
+}
+
+.animated-button.cart-button:hover {
+    background-color: #0097a7;
+    border-color: #0097a7;
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    .col-md-3 {
+        margin-bottom: 2rem;
+    }
+}

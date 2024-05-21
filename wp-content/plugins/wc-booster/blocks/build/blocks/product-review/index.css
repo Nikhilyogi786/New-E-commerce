@@ -1,0 +1,37 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/product-review/styles/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.woocommerce .wc-booster-product-review-inner .star-rating {
+  float: right;
+  overflow: hidden;
+  position: relative;
+  height: 1em;
+  line-height: 1;
+  font-size: 1em;
+  width: 5.4em;
+  font-family: star;
+}
+.woocommerce .wc-booster-product-review-inner .star-rating::before {
+  content: "sssss";
+  color: #cfc8d8;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.woocommerce .wc-booster-product-review-inner .star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.woocommerce .wc-booster-product-review-inner .star-rating span::before {
+  content: "SSSSS";
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

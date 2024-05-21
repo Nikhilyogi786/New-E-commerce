@@ -1,0 +1,120 @@
+.pcd-elementor-widget .pcd-single-cat-grid-item {
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.pcd-elementor-widget p {
+    margin: 0 0 1.41575em;
+}
+
+.pcd-elementor-widget .pcd-position-below-content .pcd-single-cat-grid-item .pcd-grid-cat-info a {
+    color: #444444;
+    padding: 10px;
+}
+
+.pcd-elementor-widget .pcd-single-cat-grid-item a img {
+    height: auto;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 13px
+}
+
+.pcd-elementor-widget .pcd-single-cat-grid-item .pcd-grid-cat-info a {
+    margin: 0px 0px 6px 0px;
+    padding: 12px 0px 8px 0px;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: none;
+    display: block;
+    text-decoration: none;
+    transition: ease all 0.2s;
+}
+
+.pcd-position-overlay-content .pcd-elementor-widget .pcd-single-cat-grid-item .pcd-grid-cat-info a {
+    color: #fff;
+}
+
+.pcd-position-overlay-content .pcd-elementor-widget .pcd-single-cat-grid-item .pcd-grid-cat-info a {
+    padding: 16px 16px 5px 16px;
+}
+
+.pcd-elementor-widget .pcd-position-below-content .pcd-single-cat-grid-item .pcd-grid-description p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pcd-elementor-widget .pcd-grid-description {
+    /* max-width: 271px; */
+    width: 76%;
+    margin: 0 auto;
+}
+
+.pcd-elementor-widget.pcd-row-cols-4 .pcd-single-card .pdc-reap .pcd-grid-description {
+    width: 100% !important;
+}
+
+.pcd-elementor-widget.pcd-row-cols-3 .pcd-single-card .pdc-reap .pcd-grid-description {
+    width: 100% !important;
+}
+
+.pcd-elementor-widget .pcd-grid-cat-info .pcd-grid-special-offer {
+    /* color: #fff; */
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0px 0px 12px 0px;
+}
+
+.pcd-single-cat-slider-item .pcd-grid-special-offer {
+    padding: 0px 0px 12px 0px;
+}
+
+.pcd-elementor-widget .pcd-overlay-content-design .pcd-grid-special-offer {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 22px;
+}
+
+.pcd-elementor-widget .pcd-shop-now {
+    font-size: 15px;
+    color: #fff;
+    background: #cc2b5e;
+    text-align: center;
+    padding: 9px 18px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.pcd-elementor-widget .pdc-reap {
+    position: relative;
+    min-height: 100px;
+}
+
+/*=================hideant overlay-content style========================*/
+
+.pcd-position-overlay-content .pcd-elementor-widget .pcd-single-cat-grid-item .pcd-grid-cat-info {
+    background-color: rgba(17, 17, 17, 0.6);
+    padding: 16px 16px 16px 16px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    z-index: 0;
+}
+
+.pcd-cat-thumbnail a img {
+    width: 100%;
+}
+
+.pcd-category-name {
+    display: block;
+    padding: 10px 0px 10px 0px;
+}

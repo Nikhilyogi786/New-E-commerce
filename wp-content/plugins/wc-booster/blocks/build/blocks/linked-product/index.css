@@ -1,0 +1,29 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/linked-product/styles/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.components-placeholder.components-placeholder {
+  box-shadow: none;
+  border: 1px solid #d9d9d9;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  padding: 35px;
+}
+.components-placeholder.components-placeholder .components-placeholder__label {
+  font-size: 21px;
+  font-weight: 600;
+}
+.components-placeholder.components-placeholder .components-placeholder__fieldset {
+  text-align: center;
+  justify-content: center;
+}
+.components-placeholder.components-placeholder .components-placeholder__fieldset svg {
+  height: 40px;
+  width: 40px;
+}
+
+.wc-booster-linked-product-btn {
+  text-decoration: none !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

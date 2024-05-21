@@ -1,0 +1,148 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/search",
+  "version": "1.3",
+  "title": "Search",
+  "description": "The Search Block provides instant search results and relevant suggestions, enhancing the search experience for users on your website.",
+  "category": "wc-booster",
+  "supports": {},
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Search a product.."
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 15,
+          "tablet": 15,
+          "mobile": 15
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#6b6e70"
+    },
+    "iconSize": {
+      "type": "number",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 15,
+          "tablet": 15,
+          "mobile": 15
+        }
+      }
+    },
+    "fontSize": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 16,
+          "tablet": 16,
+          "mobile": 16
+        }
+      }
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 50,
+          "tablet": 50,
+          "mobile": 50
+        }
+      }
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

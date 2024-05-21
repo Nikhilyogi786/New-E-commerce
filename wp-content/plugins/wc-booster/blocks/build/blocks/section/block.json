@@ -1,0 +1,315 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/section",
+  "keywords": [
+    "section",
+    "group"
+  ],
+  "version": "3.1.1",
+  "title": "Section",
+  "category": "wc-booster",
+  "description": "This block enables you to add a section with a desired layout that allows you to add other block within it.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "containerType": {
+      "type": "string",
+      "default": "boxed"
+    },
+    "containerWidth": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      }
+    },
+    "bgType": {
+      "type": "string",
+      "default": "image"
+    },
+    "bgImage": {
+      "type": "object"
+    },
+    "bgVideo": {
+      "type": "object"
+    },
+    "bgPosition": {
+      "type": "string",
+      "default": "left top"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgAttachment": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgOverlay": {
+      "type": "string"
+    },
+    "enableShapeDivider": {
+      "type": "boolean",
+      "default": false
+    },
+    "verticalFlip": {
+      "type": "boolean",
+      "default": true
+    },
+    "horizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "shapeColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "shapeHeight": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      }
+    },
+    "shape": {
+      "type": "string",
+      "default": "hills"
+    },
+    "shapeBgColor": {
+      "type": "string"
+    },
+    "shapePosition": {
+      "type": "string",
+      "default": "bottom"
+    },
+    "shapeZIndex": {
+      "type": "numeric",
+      "default": 0
+    }
+  },
+  "example": {
+    "name": "wc-booster/section",
+    "attributes": {
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            100,
+            15,
+            100,
+            50
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      },
+      "margin": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "containerType": "boxed",
+      "containerWidth": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      },
+      "bgType": "color",
+      "bgPosition": "left top",
+      "bgAttachment": false,
+      "enableShapeDivider": true,
+      "verticalFlip": true,
+      "horizontalFlip": false,
+      "shapeColor": "#000000",
+      "shapeHeight": {
+        "activeUnit": "px",
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 181,
+          "tablet": 720,
+          "mobile": 540
+        },
+        "units": [
+          "px"
+        ]
+      },
+      "shape": "waves",
+      "shapePosition": "bottom",
+      "shapeZIndex": 0,
+      "shapeBgColor": "#eeeeee",
+      "bgColor": "#eeeeee"
+    },
+    "innerBlocks": [],
+    "viewportWidth": 800
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

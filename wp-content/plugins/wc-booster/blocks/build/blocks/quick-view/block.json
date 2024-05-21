@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/quick-view",
+  "version": "1.3",
+  "title": "Quick View",
+  "description": "This Block adds a quick view button to each product listing, allowing customers to preview products without leaving the current page.",
+  "attributes": {
+    "top": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 500
+        },
+        "values": {
+          "desktop": 45,
+          "tablet": 45,
+          "mobile": 45
+        }
+      }
+    },
+    "right": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 1,
+          "max": 500
+        },
+        "values": {
+          "desktop": 5,
+          "tablet": 5,
+          "mobile": 5
+        }
+      }
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "absolute"
+    }
+  },
+  "supports": {},
+  "blockHooks": {
+    "woocommerce/product-image": "after"
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

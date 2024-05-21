@@ -1,0 +1,622 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wc-booster/product-review",
+  "keywords": [
+    "carousel",
+    "slider"
+  ],
+  "version": "3.1.1",
+  "title": "Product Review",
+  "category": "wc-booster",
+  "description": "This block allows users to select a preferred review for highlighting, adding a personal touch to showcase the most compelling feedback.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "postsToShow": {
+      "type": "number",
+      "default": 5
+    },
+    "layout": {
+      "type": "string",
+      "default": "one"
+    },
+    "product_id": {
+      "type": "string"
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "authorTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 14,
+            "tablet": 14,
+            "mobile": 14
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "dateTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 14,
+            "tablet": 14,
+            "mobile": 14
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "commentTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": 28,
+            "tablet": 28,
+            "mobile": 28
+          }
+        }
+      }
+    },
+    "ratingTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "enableRating": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "authorColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "dateColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "commentColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "ratingColor": {
+      "type": "string",
+      "default": "#FFA500"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#EEEEEE"
+    },
+    "arrowRightBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "arrowRightColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "arrowLeftBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "arrowLeftColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "slidesToShow": {
+      "type": "object",
+      "default": {
+        "activeUnit": "",
+        "units": [
+          ""
+        ],
+        "range": {
+          "min": 1,
+          "max": 10
+        },
+        "values": {
+          "desktop": 3,
+          "tablet": 2,
+          "mobile": 1
+        }
+      }
+    },
+    "imageType": {
+      "type": "string",
+      "default": "product"
+    },
+    "ratingPosition": {
+      "type": "string",
+      "default": "top"
+    },
+    "itemBoxRadius": {
+      "type": "number",
+      "default": 6
+    },
+    "arrowRadius": {
+      "type": "number",
+      "default": 6
+    },
+    "arrowHeight": {
+      "type": "number",
+      "default": 35
+    },
+    "arrowWidth": {
+      "type": "number",
+      "default": 40
+    },
+    "imageRadius": {
+      "type": "number",
+      "default": 6
+    },
+    "wrapperTarget": {
+      "type": "boolean",
+      "default": true
+    },
+    "imgType": {
+      "type": "string",
+      "default": "normal"
+    },
+    "imageSize": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 300
+        },
+        "values": {
+          "desktop": 60,
+          "tablet": 60,
+          "mobile": 60
+        }
+      }
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "pauseOnHover": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableComment": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableArrow": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDots": {
+      "type": "boolean",
+      "default": false
+    },
+    "dotColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "contentWidth": {
+      "type": "object",
+      "default": {
+        "activeUnit": "%",
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "%"
+        ],
+        "range": {
+          "min": 1,
+          "max": 100
+        },
+        "values": {
+          "desktop": 100,
+          "tablet": 100,
+          "mobile": 100
+        }
+      }
+    },
+    "titleMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            5,
+            0,
+            5,
+            0
+          ],
+          "tablet": [
+            5,
+            0,
+            5,
+            0
+          ],
+          "mobile": [
+            5,
+            0,
+            5,
+            0
+          ]
+        }
+      }
+    },
+    "itemMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "tablet": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "mobile": [
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      }
+    },
+    "ratingMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            10,
+            0,
+            10,
+            0
+          ],
+          "tablet": [
+            10,
+            0,
+            10,
+            0
+          ],
+          "mobile": [
+            10,
+            0,
+            10,
+            0
+          ]
+        }
+      }
+    },
+    "commentMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            5,
+            0,
+            5,
+            0
+          ],
+          "tablet": [
+            5,
+            0,
+            5,
+            0
+          ],
+          "mobile": [
+            5,
+            0,
+            5,
+            0
+          ]
+        }
+      }
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "tablet": [
+            25,
+            25,
+            25,
+            25
+          ],
+          "mobile": [
+            25,
+            25,
+            25,
+            25
+          ]
+        }
+      }
+    },
+    "arrowPosition": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            -35,
+            7,
+            1108
+          ],
+          "tablet": [
+            -35,
+            7,
+            655
+          ],
+          "mobile": [
+            -35,
+            7,
+            234
+          ]
+        }
+      }
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 25
+    }
+  },
+  "textdomain": "wc-booster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

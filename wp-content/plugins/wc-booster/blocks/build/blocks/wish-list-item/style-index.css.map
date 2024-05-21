@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/wish-list-item/style-index.css","mappings":";;;AAEA;EACC;EACA;AADD,C","sources":["webpack://wc-booster/./src/blocks/wish-list-item/styles/style.scss"],"sourcesContent":["$prefix: '.wc-booster';\r\n\r\n#{$prefix}-wishlist-item-wrapper {\r\n\tdisplay: flex;\r\n\tgap: 10px;\r\n}\r\n"],"names":[],"sourceRoot":""}
